@@ -1,0 +1,64 @@
+@import "rsuite/dist/rsuite.css";
+
+.wrapper {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.sliderContainer {
+  display: flex;
+  justify-content: end
+}
+
+.rs-slider {
+  width: 340px;
+}
+
+.rs-slider-bar {
+  width: 340px;
+  border: 2px #D8D8D8;
+  background-color: #D8D8D8;
+  border-radius: 0px;
+  height: 4px;
+}
+
+.sliderExtention {
+  width: 200px;
+  border: 2px #D8D8D8;
+  background-color: #D8D8D8;
+  border-radius: 0px;
+  height: 4px;
+}
+
+.rs-slider-handle {
+  top: 0px;
+  border: 2px #707070;
+  background-color: #707070;
+  text-align: center;
+  padding: 2px;
+  cursor: pointer;
+
+  &::before {
+    display: none;
+  }
+}
+
+.subContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-right: 39px;
+}
+
+.sub {
+  width: 120px;
+  height: 120px;
+}
+
+.main {
+  width: 540px;
+  height: 600px;
+  border-radius: 8px;
+}

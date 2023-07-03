@@ -1,0 +1,123 @@
+.wrapperProduct{
+    width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productArea{
+    display: flex;
+    flex-direction: row;
+    margin-top: 145px;
+    margin-bottom: 99px;
+}
+
+.info {
+    width: 486px;
+    height: 600px;
+    margin-left: 62px;
+}
+
+.info p {
+    font: 16px 'Sans';
+    color: #707070;
+    text-align: start;
+}
+
+.productTitle {
+    text-align: start;
+    margin-bottom: 64px;
+}
+
+.productTitle h3 {
+    font: 26px 'Sans';
+    color: #000000;
+    margin-bottom: 23px;
+}
+
+.productTitle .price {
+    font: 20px 'Sans';
+    color: #A18A68;
+}
+
+.review {
+    text-align: start;  
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+
+.review p {
+    margin-left: 24px;
+}
+
+.review .icon {
+    color:black;
+}
+
+.description {
+    margin-bottom: 48px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.icons {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #707070;
+    margin-bottom: 38px;
+}
+
+.icons p {
+    color: lightgray;
+}
+
+.shopContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+
+.addButton {
+    margin-left: 23px;
+    width: 100%;
+    background-color: #ffffff;
+    border: solid 1px #000000;
+}
+
+.socials {
+    width: 181px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .socials {
+    border-left: solid 1px #D8D8D8;
+    padding-left: 39px;
+}
+
+.sku {
+    margin-bottom: 20px;
+}
+
+.sku span {
+    font: 16px 'Sans';  
+    color: #707070;
+    text-align: start;
+    margin-right: 16px;
+}
+
+.blackened {
+    color: #000000!important;
+}
+
+.categories span {
+    font: 16px 'Sans';
+    color: #707070;
+    text-align: start;
+    margin-right: 16px;
+}

@@ -1,0 +1,18 @@
+.counterWrapper {
+  height: 53px;
+  width: 102px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  background-color: #EFEFEF;
+}
+
+.counterWrapper p {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.counterWrapper button {
+  width: 100%;
+}

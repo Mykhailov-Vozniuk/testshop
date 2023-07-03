@@ -1,0 +1,29 @@
+@import "rsuite/dist/rsuite.css";
+
+.gridWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cell {
+  width: 385px;
+  height: 505px;
+  margin-bottom: 80px;
+}
+
+.cell .title {
+  font: 20px 'Sans';
+  color: #000000;
+}
+
+.cell .price {
+  font: 20px 'Sans';
+  color: #A18A68;
+}
+
+.cell img{
+  width: 385px;
+  height: 410px;
+}
