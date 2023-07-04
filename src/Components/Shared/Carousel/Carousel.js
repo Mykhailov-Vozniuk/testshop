@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { Slider } from 'rsuite';
 import './Carousel.css';
 
-export const Carousel = (params) => {
+export const Carousel = (props) => {
     const [chosen, setChosen] = useState(0)
 
-    const images = params.images.map((img, index) => {
+    const images = props.images.map((img, index) => {
         return(
             <div key={index}>
                 <img id={index} src={img} onClick={event => {
@@ -21,7 +21,7 @@ export const Carousel = (params) => {
                 {images}   
             </div>
             <div>
-                <img src={params.images[chosen]} className="main"/>
+                <img src={props.images[chosen]} className="main"/>
             </div>
             
         </div>

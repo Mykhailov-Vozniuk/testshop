@@ -2,10 +2,10 @@ import React from 'react';
 import './Grid.css';
 import { useNavigate } from "react-router-dom";
 
-export const Grid = (params) => {
+export const Grid = (props) => {
 
     const navigate = useNavigate();
-    const cells = params.productList.map((product, index) => {
+    const cells = props.productList.map((product, index) => {
         return(
             <div id={product.id} key={index} className='cell' onClick={event => {navigate(`/product/${product.id}`)}}>
                 <img src={product.image}/>

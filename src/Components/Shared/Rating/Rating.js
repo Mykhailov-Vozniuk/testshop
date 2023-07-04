@@ -1,22 +1,13 @@
 import React from 'react';
-import { StarIcon as Star } from '@heroicons/react/24/outline'
+import { StarIcon as StarOutlined } from '@heroicons/react/24/outline'
 import { StarIcon } from '@heroicons/react/24/solid'
 
-export const Rating = (params) => {
+export const Rating = (props) => {
 
     const func = () => {
         let res = []
         for(let i=0; i<5; i++){
-            if(i <= params.rating-1){
-                res.push(
-                    <StarIcon className='icon'/>
-                )
-            }
-            else{
-                res.push(
-                    <Star className='icon'/>
-                )
-            }
+            res.push( i <= props.rating-1 ? <StarIcon className='icon'/> : <StarOutlined className='icon'/>)
         }
         return res
     }

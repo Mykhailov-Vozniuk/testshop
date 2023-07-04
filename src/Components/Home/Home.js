@@ -10,7 +10,6 @@ export const Home = () => {
     const dispatch = useDispatch()
 
 	const productList = useSelector((state) => state.productReducer.productList)
-    console.log('Home productList', productList)
 
     useEffect(() => {
 		dispatch(actionProducts(6))

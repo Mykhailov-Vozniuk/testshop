@@ -9,7 +9,6 @@ const getProducts = async (limit) => {
 const getProduct = async (id) => {
   let res =  await fetch(`https://fakestoreapi.com/products/${id}`)
   let data = await res.json()
-  console.log('getProduct', data)
   return data
 }
 
