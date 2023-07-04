@@ -7,7 +7,7 @@ export const Grid = (props) => {
     const navigate = useNavigate();
     const cells = props.productList.map((product, index) => {
         return(
-            <div id={product.id} key={index} className='cell' onClick={event => {navigate(`/product/${product.id}`)}}>
+            <div id={product.id} key={index} className='cell' onClick={event => navigate(`/product/${product.id}`)}>
                 <img src={product.image}/>
                 <p className='title'>{product.title}</p>
                 <p className='price'>{`$ ${product.price.toString().replace('.',',')}`}</p>
